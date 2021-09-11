@@ -5,27 +5,65 @@
         <link rel="stylesheet" type="text/css" href="index.css">
         <style>
             *{
+                font-family: 'ubuntu';
                 margin: 0px;
             }
             .header {background-color: rosybrown;}
+            .header1{
+                position: fixed;
+                top: 20px;
+                right: 0;
+            }
             .footer {background-color: rosybrown;}
-            .content {background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg"); position: relative;background-color: #e0e0e0; height: 380px;}
+            .content {
+                background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg"); 
+                position: relative;
+                background-color: #e0e0e0; 
+                height: 380px;
+            }
             .content2{align-items: center; margin-left: 15% ; margin-right: 15%; margin-top: 0%; padding:3% 3% 3% 3%;   display: block; background-color: #e0e0e0; }
             .content3{border-radius: 25%;}
+            .content1{
+                text-align: center;
+               left: 50%;
+               margin-left: 100px;
+               top: 50%;
+               margin-top: -50px;
+               position: relative;
+            }
+            .footer1{
+                position: fixed;
+                bottom: 20px;
+                left: 0;
+            }
+            .footer2{
+                position: fixed;
+                bottom: 20px;
+                right: 0;
+            }
+            .footer3{
+                position: relative;
+                width: 100%;
+                text-align: center;
+                padding: 20px 0;
+            }
        </style>
     </head>
     <body>
         <section class="header">
         <div class="header" height="1366px" width="768px">
-            <img src="assests/images/logo.png" height="60px" width="60px" alt="logo"> 
-            <a href="login.html">Login </a>
+            <img src="assests/images/logo.png" height="60px" width="60px" alt="logo">
+        </div> 
+        </section>
+        <section class="header1">
+            <a href="login.html" style="text-decoration: none;">Login </a>
         </div>
         </section>
         <section class="content">
         <div class="content"  height="1366px" width="768px">
-        <div class="Content1">
-            <input type="text" placeholder="City" name="search">
-        </div>
+        <section class="Content1">
+            <input type="text" placeholder="City" name="search" >
+        </section>
         </div>
         </section>
         <section class="content2">
@@ -43,7 +81,7 @@
         <section class="footer">
         <div class="footer"  height="1366px" width="768px">
         <div class="Footer1">
-            <a href="contact.html"  >Contact Us </a>
+            <a href="contact.html" style="text-decoration: none;"  >Contact Us </a>
         </div>
         <div class="footer2">
            <a href="facebook.com" target="blank"> <img src="assests/images/facebook.png" height="20px" width="22px"></a>
